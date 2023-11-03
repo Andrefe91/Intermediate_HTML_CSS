@@ -38,3 +38,12 @@ div {
     background-color: rgb(153, 153, 153);
 
 }
+
+tbody {
+  font-size: 95%;
+  font-style: italic;
+}
+
+tfoot {
+  font-weight: bold;
+}
