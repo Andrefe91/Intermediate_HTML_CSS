@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Form</title>
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <form action="/my-handling-form-page" method="post">
+
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" name="user_name" id="name">
+                </li>
+
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="user_mail" id="mail">
+                </li>
+
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea name="user_msg" id="msg" cols="30" rows="10">This is a default text...</textarea>
+                </li>
+
+                <li class="button">
+                    <button type="submit">Send your message!</button>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
