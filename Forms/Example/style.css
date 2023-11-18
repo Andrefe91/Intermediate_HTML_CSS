@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1rem;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+img {
+    padding: 0px;
+    margin: 0px;
+}
+
+button,
+input,
+select {
+    appearance: none;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0; margin: 0;
+}
+
+form {
+    display: flex;
+}
+
+input + div {
+    padding-left: 0.2rem;
+}
+
+input[type="search"] {
+    width: 250px;
+    height: 1.5rem;
+    border-radius: 10px;
+    border: 1px rgb(9, 9, 46) solid;
+}
+
+input[type="search"]:hover {
+    background-color: rgb(245, 245, 245);
+    box-shadow: inset 0 0 4px 4px rgb(204, 204, 204, 0.2);
+}
+
